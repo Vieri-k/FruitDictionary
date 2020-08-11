@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgrous_home"
+    tools:context=".MenuPencarian"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/Menu">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="250dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logoappp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bottomstyle"
+        android:backgroundTint="#ffffff"
+        android:text="Search"
+        android:onClick="search"/>
+        <!--style="?android:attr/borderlessButtonStyle"/>-->
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/bottomstyle"
+        android:backgroundTint="#ffffff"
+        android:onClick="list"
+        android:text="List"/>
+        <!--style="?android:attr/borderlessButtonStyle"/>-->
+
+
+
+</LinearLayout>
